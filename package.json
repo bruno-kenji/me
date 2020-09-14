@@ -48,6 +48,7 @@
         "cp-cli": "^2.0.0",
         "downloadjs": "^1.4.7",
         "formik": "^2.1.2",
+        "gh-deploy": "^0.2.3",
         "jss-preset-default": "^10.3.0",
         "lodash": "^4.17.15",
         "moment": "^2.24.0",
