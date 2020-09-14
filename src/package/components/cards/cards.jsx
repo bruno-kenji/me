@@ -3,7 +3,6 @@ import React, { useMemo } from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
 
 import { BasicsCard } from './cards_types/basics/basics_card';
-import { ProjectsCard } from './cards_types/projects/projects_card';
 import { InterestedByCard } from './cards_types/interested_by/interested_by_card';
 import { SoundtrackCard } from './cards_types/soundtrack/soundtrack_card';
 import { StudiesCard } from './cards_types/studies/studies_card';
@@ -23,7 +22,6 @@ const useStyles = createUseStyles(styles);
 
 const CARD_TYPE_MAPPING = {
     basics: BasicsCard,
-    projects: ProjectsCard,
     language: LanguagesCard,
     dreamjob: DreamJobCard,
     gifs: GifsCard,

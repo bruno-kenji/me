@@ -1,212 +1,229 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Bruno Kenji",
+        "label": "Software Engineer",
+        "picture": "https://i.imgur.com/u4GT1tQ.jpg",
+        "email": "brunokenjidev@mail.com",
+        "phone": "+55 (11) 97066-3535",
+        "website": "",
+        "summary": "I'm a developer in development",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "São Paulo",
+            "countryCode": "BR",
+            "region": ""
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "Linkedin",
+                "username": "brunoken",
+                "url": "https://linkedin.com/in/brunoken"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "QuintoAndar",
+            "position": "Software Engineer",
+            "website": "",
+            "startDate": "2017-04",
+            "summary": "Teamed up with the payments engineering squad to deliver and maintain the credit analysis, rental dashboard, invoice lifecycle and finance products.",
+            "location": "São Paulo, Brazil",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Kanamobi",
+            "position": "Backend Developer",
+            "website": "",
+            "startDate": "2017-02",
+            "endDate": "2017-04",
+            "summary": "API development for Android, iOS and backoffice applications.",
+            "location": "São Paulo, Brazil",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Codus Tecnologia",
+            "position": "Software Engineer Intern",
+            "website": "",
+            "startDate": "2015-10",
+            "endDate": "2017-02",
+            "summary": "Fullstack developer of 5 projects in the area of transport, agribusiness, timesheet, medical reports and debt settlement, from database creation to the mobile version of the webpages, using the Scrum agile framework.",
+            "location": "São Paulo, Brazil",
             "highlights": ["Started the company"]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
+            "organization": "Lar da Mamãe Clori",
             "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
+            "website": "https://mamaeclory.org.br/",
+            "startDate": "2012-10",
+            "endDate": "2013-01",
             "summary": "Description...",
             "highlights": ["Awarded 'Volunteer of the Month'"]
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "IBTA",
+            "area": "Computer Engineering",
+            "studyType": "Bachelor Degree",
+            "startDate": "2015-01",
+            "endDate": "2018-12"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "institution": "FEI",
+            "area": "Electrical Engineering",
+            "studyType": "Shifted to Computer Engineering. Bachelor Degree",
+            "startDate": "2013-08"
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
+            "name": "React",
             "level": "Master",
             "value": 100,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Angular",
+            "name": "Python",
+            "level": "Master",
+            "value": 90,
+            "keywords": ["Flask", "Django", "Restful API"]
+        },
+        {
+            "name": "PostgreSQL",
             "level": "Master",
             "value": 80,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "NodeJS",
+            "name": "Clojure",
             "level": "Master",
-            "value": 40,
+            "value": 70,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Firebase",
+            "name": "Vue",
+            "level": "Master",
+            "value": 55,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "MongoDB",
             "level": "Master",
             "value": 60,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Gmail",
+            "name": "Java",
+            "level": "Master",
+            "value": 45,
+            "keywords": ["Spring"]
+        },
+        {
+            "name": "Node",
+            "level": "Master",
+            "value": 50,
+            "keywords": ["Javascript", "Typescript"]
+        },
+        {
+            "name": "Ruby",
             "level": "Master",
             "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Ruby on Rails"]
         },
         {
-            "name": "K8S",
+            "name": "Git",
             "level": "Master",
             "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Git"]
+        },
+        {
+            "name": "AWS",
+            "level": "Master",
+            "value": 30,
+            "keywords": ["SNS", "SQS", "S3"]
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [{
+        "language": "Portuguese",
+        "value": 100,
+        "fluency": "Native"
+    },
+    {
+        "language": "English",
+        "value": 85,
+        "fluency": "Advanced"
+    },
+    {
+        "language": "Spanish",
+        "value": 40,
+        "fluency": "Intermediate"
+    },
+    {
+        "language": "Japanese",
+        "value": 10,
+        "fluency": "Basic"
+    }],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-        {
             "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "gifUrl": "https://media.giphy.com/media/KeQJaXuGvio5yrBWka/giphy.gif"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "name": "Gaming",
+            "gifUrl": "https://64.media.tumblr.com/c7e18bd54b8c8cc2263c2739fbb6e9e5/tumblr_mjzh1klE5D1s0awfro1_500.gifv"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
+            "name": "Esports",
+            "gifUrl": "https://i.imgur.com/OVYeEJX.gif"
         },
         {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Açaí",
+            "gifUrl": "https://media1.tenor.com/images/4d60c9b9d33d3e80f1542eeb6f11a1fb/tenor.gif?itemid=7328734"
+        },
+        {
+            "name": "Anime",
+            "gifUrl": "https://media1.tenor.com/images/d1a0c001adcaf7641e483e99eb3832ea/tenor.gif?itemid=5880226"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "index": 1,
-            "name": "1 Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
-            "images": []
-        },
-        {
-            "index": 0,
-            "name": "2 Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
-            "images": [],
-            "link" : "www.serpent.fr"
-        }
-    ],
+    "projects": [],
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "I have been working professionally as a Software Engineer since 2015. Throughout these years, I’ve been maintaining some huge projects and also building many projects from scratch using new technologies.\n\n During my previous roles I’ve worked intensively with Javascript (React.js and Vue.js), Python (Flask and Django), Java (Spring), Clojure and AWS tools.\n I’m used to SQL and NoSQL databases, mainly MySQL, PostgreSQL and MongoDB. I’ve also worked on projects using Angular.js, Node.js and Ruby on Rails.\n\n I don’t have any preference regarding backend or frontend tasks, I just like coding overall, I love shipping high-quality readable code for a meaningful product."
         },
         "dreamJob": {
             "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
+                { "name": "Canada" },
+                { "name": "United States" },
+                { "name": "Dublin, Ireland" },
+                { "name": "Amsterdam, Netherlands" },
+                { "name": "Sydney, Australia" },
+                { "name": "Berlin, Germany" }
             ],
-            "remoteFrequency": "regularly"
+            "remoteFrequency": "fullTime"
         },
         "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+            "issues": { "location": true, "no_challenge": true }
         },
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
             "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
+            "codingReason": "I love solving logical problems and I'm amazed by how a computer language can build a real life life-changing product",
+            "searchState": "openOpportunities",
+            "experienceYears": 6,
+            "codeExperienceYears": 6,
+            "otherExperienceYears": 0
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/playlist/7x3yEQNFbpnB5Fp6yO2deS"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Frontend and backend alike, multicultural teams, living outside South America"
     },
     "resumeCustomization": {
         "imageHeader": {

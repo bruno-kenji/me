@@ -91,9 +91,6 @@ const DreamJobBackComponent = ({ data }) => {
 
 const DreamJobLocations = ({ remoteFrequency, places, classes }) => {
     const { formatMessage } = useIntl();
-    if (remoteFrequency === REMOTE_FREQUENCY.FULL_TIME) {
-        return <FormattedMessage id="Dreamjob.Back.Location.RemoteOnly" defaultMessage="I want to work remotely" />;
-    }
 
     return (
         <>
@@ -101,16 +98,16 @@ const DreamJobLocations = ({ remoteFrequency, places, classes }) => {
                 <FormattedMessage id="Dreamjob.Back.Location.Title" defaultMessage="My dreamjob location" />
             </ProfileCardSectionTitle>
             <ProfileCardSectionText>
-                <DreamJobPlaces places={places} classes={classes} />
-                <br />
                 {remoteFrequency &&
                     formatMessage(remoteDisplayTranslations[remoteFrequency] || remoteDisplayTranslations.others)}
+                <br />
+                <DreamJobPlaces places={places} classes={classes} remoteFrequency={remoteFrequency} />
             </ProfileCardSectionText>
         </>
     );
 };
 
-const DreamJobPlaces = ({ places = [], classes }) => {
+const DreamJobPlaces = ({ places = [], remoteFrequency, classes }) => {
     const textAnchor = useRef();
     const [open, handlers] = useOpenerState();
     const { firstPlace, remainingPlaces } = useMemo(() => {
@@ -118,13 +115,14 @@ const DreamJobPlaces = ({ places = [], classes }) => {
         const item = placesCopy.shift();
         return { firstPlace: item, remainingPlaces: placesCopy };
     }, [places]);
+    const also = remoteFrequency === REMOTE_FREQUENCY.FULL_TIME ? 'also ' : '';
 
     if (!remainingPlaces.length) {
         return (
             <ProfileCardSectionText>
                 <FormattedMessage
                     id="Dreamjob.Back.Location.OnePlace"
-                    defaultMessage="I want to work in {place}"
+                    defaultMessage="I {also}want to work in {place}"
                     values={{ place: firstPlace?.name ?? '' }}
                 />
             </ProfileCardSectionText>
@@ -136,8 +134,8 @@ const DreamJobPlaces = ({ places = [], classes }) => {
             <button className={classes.button} type="button" ref={textAnchor} {...handlers}>
                 <FormattedMessage
                     id="Dreamjob.Back.Location.ManyPlaces"
-                    defaultMessage="I want to work in {place} and {length, plural, one {one other place} other {# other places}}"
-                    values={{ place: firstPlace.name, length: remainingPlaces.length }}
+                    defaultMessage="I {also}want to work in {place} and {length, plural, one {one other place} other {# other places}}"
+                    values={{ place: firstPlace.name, length: remainingPlaces.length, also }}
                 />
             </button>
             <PopperCard
