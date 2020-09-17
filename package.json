@@ -6,6 +6,7 @@
     "homepage": "https://bruno-kenji.github.io/me",
     "scripts": {
         "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",
+        "predeploy": "react-scripts build",
         "dev": "yarn start",
         "eject": "react-scripts eject",
         "test": "react-scripts test",
@@ -18,7 +19,7 @@
         "build:messages": "NODE_ENV=production babel ./src >/dev/null",
         "serve": "react-scripts build && serve build",
         "manage:translations": "node ./translationRunner.js",
-        "gh-deploy": "yarn build && gh-pages -d build",
+        "deploy": "gh-pages -d build",
         "version:beta": "npm version prerelease --preid=beta",
         "version:release": "npm version ${VERSION:-patch}"
     },
@@ -30,7 +31,7 @@
     "license": "AGPLv3",
     "peerDependencies": {
         "@material-ui/core": "^4.11.0",
-        "@welovedevs/ui": "^1.0.5-beta.8",
+        "@welovedevs/ui": "^1.1.0-beta.33",
         "formik": "^2.1.2",
         "react": "^16.12.0",
         "react-dom": "^16.12.0"
@@ -41,7 +42,7 @@
         "@formatjs/intl-pluralrules": "^1.5.2",
         "@formatjs/intl-relativetimeformat": "^4.5.9",
         "@material-ui/pickers": "^3.2.9",
-        "@welovedevs/ui": "^1.0.5-beta.8",
+        "@welovedevs/ui": "^1.1.0-beta.33",
         "chroma-js": "^2.1.0",
         "classnames": "^2.2.6",
         "copy-to-clipboard": "^3.3.1",
@@ -49,7 +50,7 @@
         "downloadjs": "^1.4.7",
         "formik": "^2.1.2",
         "gh-deploy": "^0.2.3",
-        "jss-preset-default": "^10.3.0",
+        "jss-preset-default": "^10.4.0",
         "lodash": "^4.17.15",
         "moment": "^2.24.0",
         "prop-types": "15.7.2",
@@ -58,7 +59,7 @@
         "react-images": "^1.1.0-beta.3",
         "react-infinite-scroller": "^1.2.4",
         "react-intl": "^3.9.3",
-        "react-jss": "^10.3.0",
+        "react-jss": "^10.4.0",
         "react-slick": "^0.25.2",
         "react-sortable-hoc": "^1.11.0",
         "react-spring": "9.0.0-beta.33",

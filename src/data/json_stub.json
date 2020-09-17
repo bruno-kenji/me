@@ -154,18 +154,8 @@
     },
     {
         "language": "English",
-        "value": 85,
+        "value": 80,
         "fluency": "Advanced"
-    },
-    {
-        "language": "Spanish",
-        "value": 40,
-        "fluency": "Intermediate"
-    },
-    {
-        "language": "Japanese",
-        "value": 10,
-        "fluency": "Basic"
     }],
     "interests": [
         {
@@ -213,7 +203,7 @@
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
+            "codingYears": 6.5,
             "codingReason": "I love solving logical problems and I'm amazed by how a computer language can build a real life life-changing product",
             "searchState": "openOpportunities",
             "experienceYears": 6,
